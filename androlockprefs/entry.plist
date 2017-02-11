@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = AndroLockPrefs;
+	cell = PSLinkCell;
+	detail = AndroLockPrefsListController;
+	icon = AndroLockPrefs.png;
+	isController = 1;
+	label = AndroLock;
+    };
+}

@@ -1,0 +1,9 @@
+Package: com.tweaksbylogan.androlock
+Name: AndroLock
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An Android-inspired lock screen!
+Maintainer: Logan O'Connell
+Author: Logan O'Connell
+Section: Tweaks

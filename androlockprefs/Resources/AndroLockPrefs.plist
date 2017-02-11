@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>AndroLockPrefsCustomCell</string>
+		</dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALEnabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>icon</key>				<string>AndroLockEnabled.png</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>AndroLockSettingsController</string>
+            <key>label</key>            <string>Settings</string>
+            <key>icon</key>             <string>AndroLockSettings.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>AndroLockSupportController</string>
+            <key>label</key>            <string>Support</string>
+            <key>icon</key>             <string>AndroLockSupport.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>respring</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>label</key>            <string>Respring</string>
+            <key>icon</key>             <string>AndroLockRespring.png</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>followLogan</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>label</key>            <string>Follow @logandev22</string>
+            <key>icon</key>             <string>AndroLockTwitter.png</string>
+        </dict>
+
+		<dict>
+        	<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerText</key>		<string>© 2015 Logan O'Connell</string>
+			<key>footerAlignment</key>	<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>   <string></string>
+</dict>
+</plist>

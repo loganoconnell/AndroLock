@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>AndroLockSettingsCustomCell</string>
+		</dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>			<string>Enable To Use Android-inspired Version</string>
+            <key>footerText</key>       <string>A respring may be required to activate changes.</string>
+            <key>footerAlignment</key>  <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALNotifications</string>
+            <key>label</key>            <string>Notification Cells</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALMiniplayer</string>
+            <key>label</key>            <string>Music Miniplayer</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALUnlock</string>
+            <key>label</key>            <string>Press To Unlock Button</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALGrabbers</string>
+            <key>label</key>            <string>Camera/Phone App Grabbers</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALPushDownDate</string>
+            <key>label</key>            <string>Push Down Date View</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALPasscodeBackground</string>
+            <key>label</key>            <string>Passcode Background View</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALPushDownPasscode</string>
+            <key>label</key>            <string>Push Down Passcode View</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALPasscodeButtons</string>
+            <key>label</key>            <string>Style Passcode Buttons</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALPasscodeExtraButtons</string>
+            <key>label</key>            <string>Emergency/Cancel Buttons</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>AndroLockCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.tweaksbylogan.androlock</string>
+            <key>key</key>              <string>ALHideExtraViews</string>
+            <key>label</key>            <string>Hide Extra Views</string>
+            <key>PostNotification</key> <string>com.tweaksbylogan.androlock/saved</string>
+        </dict>
+	</array>
+	<key>title</key>   <string></string>
+</dict>
+</plist>
